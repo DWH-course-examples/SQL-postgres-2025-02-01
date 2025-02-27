@@ -1,0 +1,198 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="TvUXMeZAz04OXAG5pnDE">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Задание “Коллекция аудио-дисков&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Предположим, что для облегчения поиска нужной песни в вашей коллекции аудио компакт-дисков, вы решили создать базу данных. Постройте диаграмму «сущность-связь» для описанной предметной области. Какие сущности вы выделили? Убедитесь, что каждая сущность характеризуется фиксированным (не переменным) числом атрибутов.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Диаграмма может иметь несколько вариантов. Измените вашу диаграмму так, чтобы в базе хранилась также и информация об исполнителях (является ли исполнитель группой или солистом, из какой он страны, год создания группы, первый вышедший альбом).&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="40" width="580" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-2" target="wYRyxxRTd6V0FQS9c5PF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-2" target="wYRyxxRTd6V0FQS9c5PF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-2" target="wYRyxxRTd6V0FQS9c5PF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-2" target="wYRyxxRTd6V0FQS9c5PF-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="430" />
+              <mxPoint x="100" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-36" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="wYRyxxRTd6V0FQS9c5PF-34">
+          <mxGeometry x="-0.32" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-2" value="Исполнитель" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-3" target="wYRyxxRTd6V0FQS9c5PF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-3" value="Группа" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-4" target="wYRyxxRTd6V0FQS9c5PF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-4" value="Солист" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-5" target="wYRyxxRTd6V0FQS9c5PF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-5" value="IS A" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-6" target="wYRyxxRTd6V0FQS9c5PF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-6" value="IS A" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-11" value="год создания группы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-12" value="страна" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-13" value="первый вышедший альбом" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.422;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-2" target="wYRyxxRTd6V0FQS9c5PF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-17" value="&lt;u&gt;ФИО&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-19" target="wYRyxxRTd6V0FQS9c5PF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-25" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="wYRyxxRTd6V0FQS9c5PF-23">
+          <mxGeometry x="0.1444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-19" target="wYRyxxRTd6V0FQS9c5PF-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-19" target="wYRyxxRTd6V0FQS9c5PF-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-19" target="wYRyxxRTd6V0FQS9c5PF-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-19" value="Диск" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-20" target="wYRyxxRTd6V0FQS9c5PF-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-20" target="wYRyxxRTd6V0FQS9c5PF-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-20" target="wYRyxxRTd6V0FQS9c5PF-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-20" value="Песня" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-21" target="wYRyxxRTd6V0FQS9c5PF-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-31" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="wYRyxxRTd6V0FQS9c5PF-28">
+          <mxGeometry x="-0.3333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-21" target="wYRyxxRTd6V0FQS9c5PF-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-21" target="wYRyxxRTd6V0FQS9c5PF-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-21" target="wYRyxxRTd6V0FQS9c5PF-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-21" value="Альбом" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-22" target="wYRyxxRTd6V0FQS9c5PF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-26" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="wYRyxxRTd6V0FQS9c5PF-24">
+          <mxGeometry x="-0.0476" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-22" value="содержит" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-27" target="wYRyxxRTd6V0FQS9c5PF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-30" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="wYRyxxRTd6V0FQS9c5PF-29">
+          <mxGeometry x="-0.3333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-27" value="содержит" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-33" value="исполняет" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.533;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-33" target="wYRyxxRTd6V0FQS9c5PF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-40" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="wYRyxxRTd6V0FQS9c5PF-35">
+          <mxGeometry x="0.0221" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-41" value="обложка" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-42" value="&lt;u&gt;номер диска&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-43" value="формат диска" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-44" value="год выпуска" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-45" value="жанр" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-46" value="год выпуска" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-47" value="количество песен" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="620" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-48" value="&lt;u&gt;название&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-50" value="&lt;u&gt;название&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-61" value="&lt;u&gt;название&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wYRyxxRTd6V0FQS9c5PF-3" target="wYRyxxRTd6V0FQS9c5PF-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYRyxxRTd6V0FQS9c5PF-63" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;исполнитель(&lt;u&gt;id&lt;/u&gt;, страна, первый_альбом, тип)&lt;br&gt;группа(&lt;u&gt;название&lt;/u&gt;, год_создания, fk_id_исполнителя)&lt;br&gt;солист(&lt;u&gt;ФИО, &lt;/u&gt;fk_id_исполнителя)&lt;br&gt;диск(&lt;u&gt;номер&lt;/u&gt;, обложка, формат)&lt;br&gt;содержание_диска(fk_&lt;u&gt;номер_диска&lt;/u&gt;, fk_&lt;u&gt;название_песни&lt;/u&gt;)&lt;br&gt;песня(&lt;u&gt;название&lt;/u&gt;, жанр, год_выпуска, fk_id_исполнителя)&lt;br&gt;альбом(&lt;u&gt;название&lt;/u&gt;, год_выпуска)&lt;br&gt;содержание_альбома(fk_&lt;u&gt;название_альбома&lt;/u&gt;, fk_&lt;u&gt;название_песни&lt;/u&gt;)&lt;br&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;исполнилнитель(1, Америка, &quot;тест&quot;)&lt;/div&gt;&lt;div&gt;группа(&quot;linkin park&quot;, 1996, 1)&lt;/div&gt;&lt;div&gt;солист(Иванов И.И., 1)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;страна, первый альбом, название, год_создания&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="940" width="970" height="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
