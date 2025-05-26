@@ -63,7 +63,7 @@ https://www.db-fiddle.com/f/ofKNUjZjzrHFjof9db2Yye/0#&togetherjs=6TeInkcAP4
 
 ## Домашние работы
 
-результаты выполнения ДЗ вносим в табличку: [результаты](https://docs.google.com/spreadsheets/d/1bqNCQ0HlQbzckvHQ_Gt2IXozvYCD3B2HgkQ27kq48dQ/edit?usp=sharing)
+результаты выполнения ДЗ вносим в табличку: [результаты](https://docs.google.com/spreadsheets/d/1t52sm4jeOroAMrd3LrvIBEPRE-7bz2GFK0ekVnI2PXA/edit?usp=sharing)
 - указать свое имя (фамиля, отчество, nickname)
 - эл. почту (информация для организаторов курса для отслеживания прогресса обучения)
 - ссылку / ссылки на решение задачи
